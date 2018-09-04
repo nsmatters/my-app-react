@@ -5,6 +5,7 @@ import Clock from './Demo/Clock'
 import TemperatureV1 from './Demo/TemperatureV1'
 import { TemperatureV2 } from './Demo/TemperatureV2'
 import { MyList } from './Demo/MyList';
+import { MyForm } from './Demo/UnControlled';
 
 import logo from './logo.svg';
 
@@ -24,6 +25,7 @@ class App extends React.Component {
         <TemperatureV1 />
         <TemperatureV2 />
         <MyList />
+        <MyForm />
       </div>
     );
   }
